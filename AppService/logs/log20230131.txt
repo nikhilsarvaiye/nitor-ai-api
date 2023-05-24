@@ -1,0 +1,377 @@
+2023-01-31 14:15:52.403 +05:30 [INF] Starting web application
+2023-01-31 14:15:52.681 +05:30 [INF] User profile is available. Using '/Users/nikhils/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-01-31 14:15:55.977 +05:30 [INF] Now listening on: https://localhost:7282
+2023-01-31 14:15:55.977 +05:30 [INF] Now listening on: http://localhost:5233
+2023-01-31 14:15:55.977 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-31 14:15:55.977 +05:30 [INF] Hosting environment: Development
+2023-01-31 14:15:55.977 +05:30 [INF] Content root path: /Users/nikhils/Documents/Personal/_/rafiki-back/backend/AppService
+2023-01-31 14:15:57.139 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/swagger/index.html - -
+2023-01-31 14:15:57.210 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/swagger/index.html - - - 200 - text/html;charset=utf-8 71.4956ms
+2023-01-31 14:15:57.311 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/swagger/swagger-ui-bundle.js - -
+2023-01-31 14:15:57.312 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/swagger/swagger-ui.css - -
+2023-01-31 14:15:57.421 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/swagger/swagger-ui-standalone-preset.js - -
+2023-01-31 14:15:57.426 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-01-31 14:15:57.426 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/swagger/swagger-ui.css - - - 200 143943 text/css 113.8156ms
+2023-01-31 14:15:57.443 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-01-31 14:15:57.497 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 49.6975ms
+2023-01-31 14:15:57.523 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-01-31 14:15:57.524 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 212.7992ms
+2023-01-31 14:15:57.617 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/swagger/v1/swagger.json - -
+2023-01-31 14:15:57.758 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.6215ms
+2023-01-31 14:16:01.310 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7282/authenticate/login - -
+2023-01-31 14:16:01.314 +05:30 [INF] CORS policy execution successful.
+2023-01-31 14:16:01.315 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7282/authenticate/login - - - 204 - - 4.9794ms
+2023-01-31 14:16:02.794 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7282/authenticate/login - -
+2023-01-31 14:16:02.795 +05:30 [INF] CORS policy execution successful.
+2023-01-31 14:16:02.795 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7282/authenticate/login - - - 204 - - 1.7938ms
+2023-01-31 14:19:20.609 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7282/authenticate/login application/json 43
+2023-01-31 14:19:20.698 +05:30 [INF] Executing endpoint 'AppService.Controllers.AuthenticateController.LogInAsync (AppService)'
+2023-01-31 14:19:20.719 +05:30 [INF] Route matched with {action = "LogIn", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Models.LoggedInUser] LogInAsync(System.Text.Json.Nodes.JsonNode) on controller AppService.Controllers.AuthenticateController (AppService).
+2023-01-31 14:19:24.075 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.LoggedInUser'.
+2023-01-31 14:19:24.106 +05:30 [INF] Executed action AppService.Controllers.AuthenticateController.LogInAsync (AppService) in 3384.2843ms
+2023-01-31 14:19:24.106 +05:30 [INF] Executed endpoint 'AppService.Controllers.AuthenticateController.LogInAsync (AppService)'
+2023-01-31 14:19:24.106 +05:30 [INF] Request POST /authenticate/login => 200
+2023-01-31 14:19:24.106 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7282/authenticate/login application/json 43 - 200 - application/json;+charset=utf-8 3498.1511ms
+2023-01-31 14:19:24.116 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/appsettings - -
+2023-01-31 14:19:24.148 +05:30 [INF] Executing endpoint 'AppService.Controllers.AppSettingsController.GetAsync (AppService)'
+2023-01-31 14:19:24.150 +05:30 [INF] Route matched with {action = "Get", controller = "AppSettings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Models.AppSettings] GetAsync() on controller AppService.Controllers.AppSettingsController (AppService).
+2023-01-31 14:19:24.507 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.AppSettings'.
+2023-01-31 14:19:24.508 +05:30 [INF] Executed action AppService.Controllers.AppSettingsController.GetAsync (AppService) in 357.0897ms
+2023-01-31 14:19:24.508 +05:30 [INF] Executed endpoint 'AppService.Controllers.AppSettingsController.GetAsync (AppService)'
+2023-01-31 14:19:24.508 +05:30 [INF] Request GET /appsettings => 200
+2023-01-31 14:19:24.508 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/appsettings - - - 200 - application/json;+charset=utf-8 391.6734ms
+2023-01-31 14:19:24.641 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:24.643 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:24.644 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:24.715 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:24.745 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:24.747 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:24.773 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:24.773 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:24.774 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:24.781 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:24.782 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:24.782 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:25.235 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:25.247 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 474.0705ms
+2023-01-31 14:19:25.247 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:25.247 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:25.247 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 501.5900ms
+2023-01-31 14:19:25.838 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:25.843 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1069.1156ms
+2023-01-31 14:19:25.843 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:25.844 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:25.844 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 1128.9826ms
+2023-01-31 14:19:26.267 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:26.269 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1624.3343ms
+2023-01-31 14:19:26.269 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:26.269 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:26.269 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 1628.3780ms
+2023-01-31 14:19:26.360 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:26.361 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1579.451ms
+2023-01-31 14:19:26.361 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:26.361 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:26.361 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 1580.2257ms
+2023-01-31 14:19:28.561 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:28.561 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:28.561 +05:30 [INF] Executing endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:28.561 +05:30 [INF] Executing endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:28.563 +05:30 [INF] Route matched with {action = "Get", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.OrderController (AppService).
+2023-01-31 14:19:28.563 +05:30 [INF] Route matched with {action = "Get", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.OrderController (AppService).
+2023-01-31 14:19:29.796 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Order, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:29.796 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Order, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:29.803 +05:30 [INF] Executed action AppService.Controllers.OrderController.GetAsync (AppService) in 1239.9122ms
+2023-01-31 14:19:29.803 +05:30 [INF] Executed action AppService.Controllers.OrderController.GetAsync (AppService) in 1239.9123ms
+2023-01-31 14:19:29.803 +05:30 [INF] Executed endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:29.803 +05:30 [INF] Executed endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:29.803 +05:30 [INF] Request GET /order => 200
+2023-01-31 14:19:29.803 +05:30 [INF] Request GET /order => 200
+2023-01-31 14:19:29.803 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 1242.1936ms
+2023-01-31 14:19:29.803 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 1242.2286ms
+2023-01-31 14:19:30.432 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:30.432 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:30.433 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:30.433 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:30.433 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:30.433 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:30.449 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:30.450 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:30.450 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:30.450 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:30.451 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:30.451 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:30.604 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:30.604 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 153.8265ms
+2023-01-31 14:19:30.605 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:30.605 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:30.605 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 155.4855ms
+2023-01-31 14:19:30.708 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:30.708 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:30.708 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 257.7829ms
+2023-01-31 14:19:30.708 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 274.885ms
+2023-01-31 14:19:30.708 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:30.708 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:30.708 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:30.708 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:30.708 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 258.2322ms
+2023-01-31 14:19:30.708 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 275.9045ms
+2023-01-31 14:19:31.546 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:31.547 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1114.4345ms
+2023-01-31 14:19:31.547 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:31.547 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:31.547 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 1115.3287ms
+2023-01-31 14:19:31.604 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:31.604 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:31.605 +05:30 [INF] Executing endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-01-31 14:19:31.605 +05:30 [INF] Executing endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-01-31 14:19:31.613 +05:30 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.UserController (AppService).
+2023-01-31 14:19:31.614 +05:30 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.UserController (AppService).
+2023-01-31 14:19:31.791 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.User, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:31.794 +05:30 [INF] Executed action AppService.Controllers.UserController.GetAsync (AppService) in 181.1615ms
+2023-01-31 14:19:31.794 +05:30 [INF] Executed endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-01-31 14:19:31.794 +05:30 [INF] Request GET /user => 200
+2023-01-31 14:19:31.794 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 189.9860ms
+2023-01-31 14:19:31.825 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.User, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:31.826 +05:30 [INF] Executed action AppService.Controllers.UserController.GetAsync (AppService) in 211.2102ms
+2023-01-31 14:19:31.826 +05:30 [INF] Executed endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-01-31 14:19:31.826 +05:30 [INF] Request GET /user => 200
+2023-01-31 14:19:31.826 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 221.8367ms
+2023-01-31 14:19:32.041 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:32.041 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:32.041 +05:30 [INF] Executing endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:32.041 +05:30 [INF] Executing endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:32.041 +05:30 [INF] Route matched with {action = "Get", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.OrderController (AppService).
+2023-01-31 14:19:32.041 +05:30 [INF] Route matched with {action = "Get", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.OrderController (AppService).
+2023-01-31 14:19:32.996 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Order, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:32.996 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Order, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:32.997 +05:30 [INF] Executed action AppService.Controllers.OrderController.GetAsync (AppService) in 955.8753ms
+2023-01-31 14:19:32.997 +05:30 [INF] Executed action AppService.Controllers.OrderController.GetAsync (AppService) in 955.8782ms
+2023-01-31 14:19:32.997 +05:30 [INF] Executed endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:32.997 +05:30 [INF] Executed endpoint 'AppService.Controllers.OrderController.GetAsync (AppService)'
+2023-01-31 14:19:32.997 +05:30 [INF] Request GET /order => 200
+2023-01-31 14:19:32.997 +05:30 [INF] Request GET /order => 200
+2023-01-31 14:19:32.997 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 956.4359ms
+2023-01-31 14:19:32.997 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/order?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 956.4392ms
+2023-01-31 14:19:33.617 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:33.617 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:33.617 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:33.617 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-01-31 14:19:33.617 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.617 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.617 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:33.617 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:33.618 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.618 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:33.633 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.633 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:33.710 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:33.710 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 91.9338ms
+2023-01-31 14:19:33.710 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.710 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:33.710 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 93.3744ms
+2023-01-31 14:19:33.786 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:33.786 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:33.786 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 152.5425ms
+2023-01-31 14:19:33.786 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 168.5055ms
+2023-01-31 14:19:33.786 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.786 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.786 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:33.786 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:33.786 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 169.3001ms
+2023-01-31 14:19:33.786 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 168.8919ms
+2023-01-31 14:19:33.832 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:33.832 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 214.4452ms
+2023-01-31 14:19:33.832 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:33.832 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:33.832 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 215.0378ms
+2023-01-31 14:19:34.880 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - -
+2023-01-31 14:19:34.880 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:34.880 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:34.893 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:34.893 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - -
+2023-01-31 14:19:34.893 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?id=63cd2a7cba39ac9cf35d5bef - -
+2023-01-31 14:19:34.893 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:34.893 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:34.919 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:34.919 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:34.919 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:34.919 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:34.990 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - -
+2023-01-31 14:19:34.991 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:34.991 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:34.997 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 14:19:34.997 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:34.998 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:35.036 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:35.036 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:35.036 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:35.037 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 156.1229ms
+2023-01-31 14:19:35.037 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 117.9447ms
+2023-01-31 14:19:35.037 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 117.9519ms
+2023-01-31 14:19:35.037 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.037 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.037 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.037 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:35.037 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:35.037 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:35.037 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 144.3120ms
+2023-01-31 14:19:35.037 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - - - 200 - application/json;+charset=utf-8 143.8335ms
+2023-01-31 14:19:35.037 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - - - 200 - application/json;+charset=utf-8 157.1894ms
+2023-01-31 14:19:35.088 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?id=63cd2a7cba39ac9cf35d5bef - -
+2023-01-31 14:19:35.090 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.090 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:35.104 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - -
+2023-01-31 14:19:35.105 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.105 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:35.206 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:35.207 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 101.7989ms
+2023-01-31 14:19:35.207 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.207 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:35.207 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - - - 200 - application/json;+charset=utf-8 102.3190ms
+2023-01-31 14:19:35.208 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:35.209 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 217.7983ms
+2023-01-31 14:19:35.209 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.209 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:35.213 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - - - 200 - application/json;+charset=utf-8 218.6069ms
+2023-01-31 14:19:35.216 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:35.216 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 218.487ms
+2023-01-31 14:19:35.216 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:35.216 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:35.216 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 219.1815ms
+2023-01-31 14:19:36.024 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.Product'.
+2023-01-31 14:19:36.026 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1107.575ms
+2023-01-31 14:19:36.026 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:36.026 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:36.026 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?id=63cd2a7cba39ac9cf35d5bef - - - 200 - application/json;+charset=utf-8 1133.4223ms
+2023-01-31 14:19:36.039 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product/file?$filter=id%20in%20(%2763cdae97ba39ac9cf35d5bf6%27,%2763cdae97ba39ac9cf35d5bf7%27,%2763cdae97ba39ac9cf35d5bf8%27) - -
+2023-01-31 14:19:36.040 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetFilesAsync (AppService)'
+2023-01-31 14:19:36.042 +05:30 [INF] Route matched with {action = "GetFiles", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Models.UploadFile]] GetFilesAsync() on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:36.134 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - -
+2023-01-31 14:19:36.134 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - -
+2023-01-31 14:19:36.134 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:36.134 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:36.134 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:36.134 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:36.219 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:36.220 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 85.8912ms
+2023-01-31 14:19:36.220 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:36.220 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:36.220 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - - - 200 - application/json;+charset=utf-8 86.3237ms
+2023-01-31 14:19:36.223 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:36.223 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 88.778ms
+2023-01-31 14:19:36.223 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:36.223 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:36.223 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - - - 200 - application/json;+charset=utf-8 89.1766ms
+2023-01-31 14:19:37.389 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.Product'.
+2023-01-31 14:19:37.390 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 2299.4495ms
+2023-01-31 14:19:37.390 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 14:19:37.390 +05:30 [INF] Request GET /product => 200
+2023-01-31 14:19:37.390 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?id=63cd2a7cba39ac9cf35d5bef - - - 200 - application/json;+charset=utf-8 2302.1414ms
+2023-01-31 14:19:37.401 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product/file?$filter=id%20in%20(%2763cdae97ba39ac9cf35d5bf6%27,%2763cdae97ba39ac9cf35d5bf7%27,%2763cdae97ba39ac9cf35d5bf8%27) - -
+2023-01-31 14:19:37.406 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetFilesAsync (AppService)'
+2023-01-31 14:19:37.406 +05:30 [INF] Route matched with {action = "GetFiles", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Models.UploadFile]] GetFilesAsync() on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 14:19:37.585 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.UploadFile, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:37.633 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetFilesAsync (AppService) in 1589.855ms
+2023-01-31 14:19:37.633 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetFilesAsync (AppService)'
+2023-01-31 14:19:37.633 +05:30 [INF] Request GET /product/file => 200
+2023-01-31 14:19:37.633 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product/file?$filter=id%20in%20(%2763cdae97ba39ac9cf35d5bf6%27,%2763cdae97ba39ac9cf35d5bf7%27,%2763cdae97ba39ac9cf35d5bf8%27) - - - 200 - application/json;+charset=utf-8 1594.2976ms
+2023-01-31 14:19:37.985 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.UploadFile, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 14:19:37.987 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetFilesAsync (AppService) in 580.2494ms
+2023-01-31 14:19:37.987 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetFilesAsync (AppService)'
+2023-01-31 14:19:37.987 +05:30 [INF] Request GET /product/file => 200
+2023-01-31 14:19:37.987 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product/file?$filter=id%20in%20(%2763cdae97ba39ac9cf35d5bf6%27,%2763cdae97ba39ac9cf35d5bf7%27,%2763cdae97ba39ac9cf35d5bf8%27) - - - 200 - application/json;+charset=utf-8 585.6869ms
+2023-01-31 15:11:38.763 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/user?id=63ce93f9eb3ef12b06076a18 - -
+2023-01-31 15:11:38.769 +05:30 [INF] Executing endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-01-31 15:11:38.771 +05:30 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.UserController (AppService).
+2023-01-31 15:11:40.342 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.User'.
+2023-01-31 15:11:40.348 +05:30 [INF] Executed action AppService.Controllers.UserController.GetAsync (AppService) in 1576.2115ms
+2023-01-31 15:11:40.348 +05:30 [INF] Executed endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-01-31 15:11:40.348 +05:30 [INF] Request GET /user => 200
+2023-01-31 15:11:40.348 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/user?id=63ce93f9eb3ef12b06076a18 - - - 200 - application/json;+charset=utf-8 1586.7389ms
+2023-01-31 15:11:40.366 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/appsettings - -
+2023-01-31 15:11:40.367 +05:30 [INF] Executing endpoint 'AppService.Controllers.AppSettingsController.GetAsync (AppService)'
+2023-01-31 15:11:40.367 +05:30 [INF] Route matched with {action = "Get", controller = "AppSettings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Models.AppSettings] GetAsync() on controller AppService.Controllers.AppSettingsController (AppService).
+2023-01-31 15:11:40.510 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.AppSettings'.
+2023-01-31 15:11:40.512 +05:30 [INF] Executed action AppService.Controllers.AppSettingsController.GetAsync (AppService) in 145.1029ms
+2023-01-31 15:11:40.512 +05:30 [INF] Executed endpoint 'AppService.Controllers.AppSettingsController.GetAsync (AppService)'
+2023-01-31 15:11:40.512 +05:30 [INF] Request GET /appsettings => 200
+2023-01-31 15:11:40.512 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/appsettings - - - 200 - application/json;+charset=utf-8 146.6677ms
+2023-01-31 15:11:40.708 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - -
+2023-01-31 15:11:40.761 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:40.761 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:40.909 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - -
+2023-01-31 15:11:40.909 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - -
+2023-01-31 15:11:40.909 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:40.909 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:40.909 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:40.909 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:40.912 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - -
+2023-01-31 15:11:40.913 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:40.913 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:41.088 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 15:11:41.090 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:41.090 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:41.158 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - -
+2023-01-31 15:11:41.195 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:41.195 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:41.285 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:41.285 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 375.6756ms
+2023-01-31 15:11:41.285 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:41.285 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:41.285 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - - - 200 - application/json;+charset=utf-8 376.2708ms
+2023-01-31 15:11:41.288 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?id=63cd2a7cba39ac9cf35d5bef - -
+2023-01-31 15:11:41.289 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:41.289 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:41.576 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:41.576 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 380.2591ms
+2023-01-31 15:11:41.576 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:41.576 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:41.576 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=category&$top=20 - - - 200 - application/json;+charset=utf-8 417.7936ms
+2023-01-31 15:11:41.582 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?id=63cd2a7cba39ac9cf35d5bef - -
+2023-01-31 15:11:41.582 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:41.582 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:41.865 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:41.865 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1103.7588ms
+2023-01-31 15:11:41.865 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:41.865 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:41.865 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=type&$top=20 - - - 200 - application/json;+charset=utf-8 1157.5267ms
+2023-01-31 15:11:42.263 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.Product'.
+2023-01-31 15:11:42.264 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 681.7054ms
+2023-01-31 15:11:42.264 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:42.264 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:42.264 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?id=63cd2a7cba39ac9cf35d5bef - - - 200 - application/json;+charset=utf-8 682.1559ms
+2023-01-31 15:11:42.270 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:42.270 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1360.5595ms
+2023-01-31 15:11:42.270 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:42.270 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:42.270 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - - - 200 - application/json;+charset=utf-8 1361.1725ms
+2023-01-31 15:11:42.320 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:42.346 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product/file?$filter=id%20in%20(%2763cdae97ba39ac9cf35d5bf6%27,%2763cdae97ba39ac9cf35d5bf7%27,%2763cdae97ba39ac9cf35d5bf8%27) - -
+2023-01-31 15:11:42.347 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 1433.6455ms
+2023-01-31 15:11:42.347 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:42.347 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:42.347 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=tags&$top=20 - - - 200 - application/json;+charset=utf-8 1434.8033ms
+2023-01-31 15:11:42.347 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetFilesAsync (AppService)'
+2023-01-31 15:11:42.347 +05:30 [INF] Route matched with {action = "GetFiles", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Models.UploadFile]] GetFilesAsync() on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:42.361 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - -
+2023-01-31 15:11:42.361 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - -
+2023-01-31 15:11:42.361 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:42.361 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:42.361 +05:30 [INF] Executing endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:42.361 +05:30 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.ProductController (AppService).
+2023-01-31 15:11:42.742 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:42.742 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 380.9985ms
+2023-01-31 15:11:42.742 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:42.742 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:42.742 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - - - 200 - application/json;+charset=utf-8 381.2722ms
+2023-01-31 15:11:43.282 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:43.283 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetAsync (AppService) in 921.8087ms
+2023-01-31 15:11:43.283 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetAsync (AppService)'
+2023-01-31 15:11:43.283 +05:30 [INF] Request GET /product => 200
+2023-01-31 15:11:43.283 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product?$select=options.name&$top=20 - - - 200 - application/json;+charset=utf-8 922.1301ms
+2023-01-31 15:11:43.422 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.UploadFile, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-31 15:11:43.466 +05:30 [INF] Executed action AppService.Controllers.ProductController.GetFilesAsync (AppService) in 1118.7727ms
+2023-01-31 15:11:43.466 +05:30 [INF] Executed endpoint 'AppService.Controllers.ProductController.GetFilesAsync (AppService)'
+2023-01-31 15:11:43.466 +05:30 [INF] Request GET /product/file => 200
+2023-01-31 15:11:43.466 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/product/file?$filter=id%20in%20(%2763cdae97ba39ac9cf35d5bf6%27,%2763cdae97ba39ac9cf35d5bf7%27,%2763cdae97ba39ac9cf35d5bf8%27) - - - 200 - application/json;+charset=utf-8 1120.0158ms
+2023-01-31 15:11:43.481 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.Product, Models, Version=1.0.0

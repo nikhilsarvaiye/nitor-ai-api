@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{C26AD075-1335-4739-AA99-DB79CFA14FBE}|https">
+  <MonoDevelop.Ide.ItemProperties.AppService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

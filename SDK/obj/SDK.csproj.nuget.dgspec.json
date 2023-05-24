@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/SDK.csproj": {}
+  },
+  "projects": {
+    "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj",
+        "packagesPath": "/Users/nikhils/.nuget/packages/",
+        "outputPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikhils/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/rFPpavF6ejTylff8YTNqEQ1cn52pD8O1gnzSlPUqRXL2l1GV15/api": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/SDK.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/SDK.csproj",
+        "projectName": "SDK",
+        "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/SDK.csproj",
+        "packagesPath": "/Users/nikhils/.nuget/packages/",
+        "outputPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikhils/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/rFPpavF6ejTylff8YTNqEQ1cn52pD8O1gnzSlPUqRXL2l1GV15/api": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj": {
+                "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "DotnetStandardQueryBuilder.Core": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Rebus": {
+              "target": "Package",
+              "version": "[6.5.5, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[105.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

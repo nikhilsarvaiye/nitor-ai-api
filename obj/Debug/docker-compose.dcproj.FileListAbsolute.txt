@@ -1,0 +1,1 @@
+/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
