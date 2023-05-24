@@ -15,12 +15,12 @@
 
     public class UserService : BaseService<User>, IUserService
     {
-        private readonly IProductSettingService _productSettingService;
+        private readonly IPatientSettingService _patientSettingService;
 
-        public UserService(IAppOptions appOptions, ICacheService<User> cacheService, IUserRepository userRepository, IProductSettingService productSettingService)
+        public UserService(IAppOptions appOptions, ICacheService<User> cacheService, IUserRepository userRepository, IPatientSettingService patientSettingService)
             : base(appOptions, cacheService, userRepository)
         {
-            _productSettingService = productSettingService;
+            _patientSettingService = patientSettingService;
         }
 
         public override async Task<User> CreateAsync(User user)
@@ -121,14 +121,14 @@
                 // TODO: Cache and do better
                 AppSettings = new AppSettings
                 {
-                    Product = (await _productSettingService.GetAsync(new Request
+                    Patient = (await _patientSettingService.GetAsync(new Request
                     {
                         Filter =
                         new Filter
                         {
                             Operator = FilterOperator.IsEqualTo,
                             Property = nameof(Setting.Type),
-                            Value = SettingType.Product
+                            Value = SettingType.Patient
                         }
                     }).ConfigureAwait(false)).FirstOrDefault()
                 }

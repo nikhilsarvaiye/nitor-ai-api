@@ -18,12 +18,11 @@
 
             // End
 
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped<IProductVariantRepository, ProductVariantRepository>();
+            services.AddScoped<IPatientRepository, PatientRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserNotificationRepository, UserNotificationRepository>();
             services.AddScoped<INotificationRepository, NotificationRepository>();
-            services.AddScoped<IProductSettingRepository, ProductSettingRepository>();
+            services.AddScoped<IPatientSettingRepository, PatientSettingRepository>();
             services.AddScoped<ITrackerRepository, TrackerRepository>();
 
             return services;

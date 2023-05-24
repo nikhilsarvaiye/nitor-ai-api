@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bOfjb2nqES1ESHsPEQht0fuxYYmpt7HJDMbQNh33SpQ2vA+KNBBRiqGU6/xxjrOID4jpt28sMV7i1eYju6Pagg==",
+  "dgSpecHash": "yMEp2Nrw/PnAec6JdqJ/Z/p9cUJyA9LZrCJlmd3Ss/sTfqCI/vI4YjEdBOjboeriDkHZbf5waGI/45fmwRgkFg==",
   "success": true,
-  "projectFilePath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/Configuration.csproj",
+  "projectFilePath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/Configuration.csproj",
   "expectedPackageFiles": [
     "/Users/nikhils/.nuget/packages/cachemanager.core/2.0.0-beta-1629/cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
     "/Users/nikhils/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",

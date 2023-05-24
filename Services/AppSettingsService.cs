@@ -6,18 +6,18 @@
 
     public class AppSettingsService : IAppSettingsService
     {
-        private readonly IProductSettingService _productSettingService;
+        private readonly IPatientSettingService _patientSettingService;
 
-        public AppSettingsService(IProductSettingService productSettingService)
+        public AppSettingsService(IPatientSettingService patientSettingService)
         {
-            _productSettingService = productSettingService;
+            _patientSettingService = patientSettingService;
         }
 
         public async Task<AppSettings> GetAsync()
         {
             return new AppSettings
             {
-                Product = (await _productSettingService.GetAsync().ConfigureAwait(false)).FirstOrDefault(),
+                Patient = (await _patientSettingService.GetAsync().ConfigureAwait(false)).FirstOrDefault(),
             };
         }
     }

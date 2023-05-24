@@ -51,7 +51,7 @@
     <Folder Include="templates\" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="templates\Export_Product.xlsx">
+    <None Update="templates\Export_Patient.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="templates\UserUploadTemplate.xlsx">

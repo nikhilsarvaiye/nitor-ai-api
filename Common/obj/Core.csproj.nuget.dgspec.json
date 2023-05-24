@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Common/Core.csproj": {}
+    "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Common/Core.csproj": {}
   },
   "projects": {
-    "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Common/Core.csproj": {
+    "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Common/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Common/Core.csproj",
+        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Common/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Common/Core.csproj",
+        "projectPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Common/Core.csproj",
         "packagesPath": "/Users/nikhils/.nuget/packages/",
-        "outputPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Common/obj/",
+        "outputPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikhils/.nuget/NuGet/NuGet.Config"
@@ -27,11 +27,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/Configuration.csproj": {
-                "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/Configuration.csproj"
+              "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/Configuration.csproj": {
+                "projectPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/Configuration.csproj"
               },
-              "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj": {
-                "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj"
+              "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/Models.csproj": {
+                "projectPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/Models.csproj"
               }
             }
           }
@@ -137,14 +137,14 @@
         }
       }
     },
-    "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/Configuration.csproj": {
+    "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/Configuration.csproj",
+        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/Configuration.csproj",
         "projectName": "Configuration",
-        "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/Configuration.csproj",
+        "projectPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/Configuration.csproj",
         "packagesPath": "/Users/nikhils/.nuget/packages/",
-        "outputPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/obj/",
+        "outputPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikhils/.nuget/NuGet/NuGet.Config"
@@ -219,14 +219,14 @@
         }
       }
     },
-    "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj": {
+    "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj",
+        "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/Models.csproj",
         "projectName": "Models",
-        "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj",
+        "projectPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/Models.csproj",
         "packagesPath": "/Users/nikhils/.nuget/packages/",
-        "outputPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/obj/",
+        "outputPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nikhils/.nuget/NuGet/NuGet.Config"

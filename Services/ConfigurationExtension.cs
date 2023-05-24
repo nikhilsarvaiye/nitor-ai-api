@@ -13,29 +13,22 @@
 
             if (true || appOptions.Cache)
             {
-                services.AddScoped<ICacheService<Product>, CacheService<Product>>();
-                services.AddScoped<ICacheService<ProductVariant>, CacheService<ProductVariant>>();
-                services.AddScoped<ICacheService<Store>, CacheService<Store>>();
-                services.AddScoped<ICacheService<Inventory>, CacheService<Inventory>>();
-                services.AddScoped<ICacheService<Order>, CacheService<Order>>();
-                services.AddScoped<ICacheService<Promotion>, CacheService<Promotion>>();
+                services.AddScoped<ICacheService<Patient>, CacheService<Patient>>();
                 services.AddScoped<ICacheService<User>, CacheService<User>>();
                 services.AddScoped<ICacheService<TrackerRequest>, CacheService<TrackerRequest>>();
                 services.AddScoped<ICacheService<Notification>, CacheService<Notification>>();
                 services.AddScoped<ICacheService<UserNotification>, CacheService<UserNotification>>();
-                services.AddScoped<ICacheService<ProductSetting>, CacheService<ProductSetting>>();
-                services.AddScoped<ICacheService<OrderSetting>, CacheService<OrderSetting>>();
+                services.AddScoped<ICacheService<PatientSetting>, CacheService<PatientSetting>>();
                 // services.AddScoped<ICacheService<AppSettings>, CacheService<AppSettings>>();
             }
 
             services.AddScoped<IAppSettingsService, AppSettingsService>();
-            services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IProductVariantService, ProductVariantService>();
+            services.AddScoped<IPatientService, PatientService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ITrackerService, TrackerService>();
             services.AddScoped<INotificationService, NotificationService>();
             services.AddScoped<IUserNotificationService, UserNotificationService>();
-            services.AddScoped<IProductSettingService, ProductSettingService>();
+            services.AddScoped<IPatientSettingService, PatientSettingService>();
             services.AddScoped<IExcelService, ExcelService>();
 
             return services;

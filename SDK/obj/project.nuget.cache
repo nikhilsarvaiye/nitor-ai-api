@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+aavd5P7k+SwPvJ4h0llFSiov1ceEBj748hbbr6eHVdH5unrPLFaBeI7t6jzjaV3EEFpcwI5E+OkoRy8z7OXfA==",
+  "dgSpecHash": "yja6SwU08lLnLzUNh/PIa6ub59kdBmIK6czMOSsG38ugrNiFBI/n3GNyJs5W3Q0sHoUNulnztKJh6x0Rwfn9HQ==",
   "success": true,
-  "projectFilePath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/SDK.csproj",
+  "projectFilePath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/SDK.csproj",
   "expectedPackageFiles": [
     "/Users/nikhils/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/nikhils/.nuget/packages/dotnetstandardquerybuilder.core/1.1.2/dotnetstandardquerybuilder.core.1.1.2.nupkg.sha512",

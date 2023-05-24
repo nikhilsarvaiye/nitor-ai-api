@@ -148,3 +148,110 @@ System.AggregateException: Some services are not able to be constructed (Error w
    at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
    at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
 
+2023-05-24 18:12:33.492 +05:30 [INF] Starting web application
+2023-05-24 18:12:33.703 +05:30 [INF] User profile is available. Using '/Users/nikhils/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-05-24 18:12:33.920 +05:30 [INF] Now listening on: https://localhost:7282
+2023-05-24 18:12:33.920 +05:30 [INF] Now listening on: http://localhost:5233
+2023-05-24 18:12:33.920 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-24 18:12:33.920 +05:30 [INF] Hosting environment: Development
+2023-05-24 18:12:33.920 +05:30 [INF] Content root path: /Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/AppService
+2023-05-24 18:12:35.127 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/swagger/index.html - -
+2023-05-24 18:12:35.184 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/swagger/index.html - - - 200 - text/html;charset=utf-8 57.5362ms
+2023-05-24 18:12:35.239 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/swagger/v1/swagger.json - -
+2023-05-24 18:12:35.361 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.6580ms
+2023-05-24 18:12:38.389 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7282/authenticate/login application/json 46
+2023-05-24 18:12:38.426 +05:30 [INF] Executing endpoint 'AppService.Controllers.AuthenticateController.LogInAsync (AppService)'
+2023-05-24 18:12:38.439 +05:30 [INF] Route matched with {action = "LogIn", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Models.LoggedInUser] LogInAsync(System.Text.Json.Nodes.JsonNode) on controller AppService.Controllers.AuthenticateController (AppService).
+2023-05-24 18:12:39.358 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.LoggedInUser'.
+2023-05-24 18:12:39.371 +05:30 [INF] Executed action AppService.Controllers.AuthenticateController.LogInAsync (AppService) in 930.5273ms
+2023-05-24 18:12:39.371 +05:30 [INF] Executed endpoint 'AppService.Controllers.AuthenticateController.LogInAsync (AppService)'
+2023-05-24 18:12:39.371 +05:30 [INF] Request POST /authenticate/login => 200
+2023-05-24 18:12:39.371 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7282/authenticate/login application/json 46 - 200 - application/json;+charset=utf-8 981.5319ms
+2023-05-24 18:12:39.379 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/user/file?$filter=id%20in%20(%2763df781dd644231f0df5b6cf%27) - -
+2023-05-24 18:12:39.399 +05:30 [INF] Executing endpoint 'AppService.Controllers.UserController.GetFilesAsync (AppService)'
+2023-05-24 18:12:39.401 +05:30 [INF] Route matched with {action = "GetFiles", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Models.UploadFile]] GetFilesAsync() on controller AppService.Controllers.UserController (AppService).
+2023-05-24 18:12:39.823 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.UploadFile, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:12:39.824 +05:30 [INF] Executed action AppService.Controllers.UserController.GetFilesAsync (AppService) in 422.3816ms
+2023-05-24 18:12:39.824 +05:30 [INF] Executed endpoint 'AppService.Controllers.UserController.GetFilesAsync (AppService)'
+2023-05-24 18:12:39.824 +05:30 [INF] Request GET /user/file => 200
+2023-05-24 18:12:39.825 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/user/file?$filter=id%20in%20(%2763df781dd644231f0df5b6cf%27) - - - 200 - application/json;+charset=utf-8 445.7092ms
+2023-05-24 18:12:39.835 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/appsettings - -
+2023-05-24 18:12:39.837 +05:30 [INF] Executing endpoint 'AppService.Controllers.AppSettingsController.GetAsync (AppService)'
+2023-05-24 18:12:39.838 +05:30 [INF] Route matched with {action = "Get", controller = "AppSettings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Models.AppSettings] GetAsync() on controller AppService.Controllers.AppSettingsController (AppService).
+2023-05-24 18:12:39.853 +05:30 [INF] Executing ObjectResult, writing value of type 'Models.AppSettings'.
+2023-05-24 18:12:39.853 +05:30 [INF] Executed action AppService.Controllers.AppSettingsController.GetAsync (AppService) in 14.9542ms
+2023-05-24 18:12:39.853 +05:30 [INF] Executed endpoint 'AppService.Controllers.AppSettingsController.GetAsync (AppService)'
+2023-05-24 18:12:39.853 +05:30 [INF] Request GET /appsettings => 200
+2023-05-24 18:12:39.853 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/appsettings - - - 200 - application/json;+charset=utf-8 18.0331ms
+2023-05-24 18:12:40.001 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:12:40.002 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:12:40.004 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:12:40.031 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:12:40.031 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:12:40.031 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:12:40.111 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Patient, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:12:40.119 +05:30 [INF] Executed action AppService.Controllers.PatientController.GetAsync (AppService) in 115.095ms
+2023-05-24 18:12:40.119 +05:30 [INF] Executed endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:12:40.119 +05:30 [INF] Request GET /patient => 200
+2023-05-24 18:12:40.119 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 118.5883ms
+2023-05-24 18:12:40.321 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Patient, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:12:40.321 +05:30 [INF] Executed action AppService.Controllers.PatientController.GetAsync (AppService) in 290.1415ms
+2023-05-24 18:12:40.321 +05:30 [INF] Executed endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:12:40.321 +05:30 [INF] Request GET /patient => 200
+2023-05-24 18:12:40.321 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 290.7607ms
+2023-05-24 18:14:04.082 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:04.082 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:04.087 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:04.087 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:04.087 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:14:04.087 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:14:04.235 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Patient, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:14:04.236 +05:30 [INF] Executed action AppService.Controllers.PatientController.GetAsync (AppService) in 148.2805ms
+2023-05-24 18:14:04.236 +05:30 [INF] Executed endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:04.236 +05:30 [INF] Request GET /patient => 200
+2023-05-24 18:14:04.236 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 154.3892ms
+2023-05-24 18:14:04.288 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Patient, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:14:04.288 +05:30 [INF] Executed action AppService.Controllers.PatientController.GetAsync (AppService) in 200.6565ms
+2023-05-24 18:14:04.288 +05:30 [INF] Executed endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:04.288 +05:30 [INF] Request GET /patient => 200
+2023-05-24 18:14:04.288 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 206.8142ms
+2023-05-24 18:14:06.650 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:06.650 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:06.651 +05:30 [INF] Executing endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-05-24 18:14:06.651 +05:30 [INF] Executing endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-05-24 18:14:06.657 +05:30 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.UserController (AppService).
+2023-05-24 18:14:06.657 +05:30 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.UserController (AppService).
+2023-05-24 18:14:06.723 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.User, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:14:06.726 +05:30 [INF] Executed action AppService.Controllers.UserController.GetAsync (AppService) in 69.4953ms
+2023-05-24 18:14:06.726 +05:30 [INF] Executed endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-05-24 18:14:06.726 +05:30 [INF] Request GET /user => 200
+2023-05-24 18:14:06.726 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 75.8778ms
+2023-05-24 18:14:06.740 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.User, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:14:06.740 +05:30 [INF] Executed action AppService.Controllers.UserController.GetAsync (AppService) in 83.4943ms
+2023-05-24 18:14:06.740 +05:30 [INF] Executed endpoint 'AppService.Controllers.UserController.GetAsync (AppService)'
+2023-05-24 18:14:06.740 +05:30 [INF] Request GET /user => 200
+2023-05-24 18:14:06.740 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/user?$orderby=id%20asc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 89.8426ms
+2023-05-24 18:14:08.136 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:08.136 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:08.136 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:08.136 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:08.136 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:14:08.136 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:14:08.173 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Patient, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:14:08.173 +05:30 [INF] Executed action AppService.Controllers.PatientController.GetAsync (AppService) in 36.9388ms
+2023-05-24 18:14:08.173 +05:30 [INF] Executed endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:08.173 +05:30 [INF] Request GET /patient => 200
+2023-05-24 18:14:08.173 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 37.5660ms
+2023-05-24 18:14:08.192 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Patient, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:14:08.192 +05:30 [INF] Executed action AppService.Controllers.PatientController.GetAsync (AppService) in 56.0671ms
+2023-05-24 18:14:08.192 +05:30 [INF] Executed endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:08.192 +05:30 [INF] Request GET /patient => 200
+2023-05-24 18:14:08.192 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - - - 200 - application/json;+charset=utf-8 56.6302ms
+2023-05-24 18:14:11.253 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:11.253 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7282/patient?$orderby=id%20desc&$count=true&$top=10&$skip=0 - -
+2023-05-24 18:14:11.253 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:11.253 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:14:11.254 +05:30 [INF] Executing endpoint 'AppService.Controllers.PatientController.GetAsync (AppService)'
+2023-05-24 18:14:11.254 +05:30 [INF] Route matched with {action = "Get", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetAsync(System.String) on controller AppService.Controllers.PatientController (AppService).
+2023-05-24 18:14:11.345 +05:30 [INF] Executing ObjectResult, writing value of type 'DotnetStandardQueryBuilder.Core.Response`1[[Models.Patient, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-24 18:14:11.345 +05:30 [INF] Executed action AppService.Controllers.PatientController.GetAsync (App

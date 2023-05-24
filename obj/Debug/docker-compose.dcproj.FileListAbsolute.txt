@@ -1,1 +1,2 @@
 /Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache

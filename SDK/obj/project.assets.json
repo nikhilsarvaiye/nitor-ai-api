@@ -3304,11 +3304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/SDK.csproj",
+      "projectUniqueName": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/SDK.csproj",
       "projectName": "SDK",
-      "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/SDK.csproj",
+      "projectPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/SDK.csproj",
       "packagesPath": "/Users/nikhils/.nuget/packages/",
-      "outputPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/obj/",
+      "outputPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nikhils/.nuget/NuGet/NuGet.Config"
@@ -3324,8 +3324,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj": {
-              "projectPath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Models/Models.csproj"
+            "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/Models.csproj": {
+              "projectPath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Models/Models.csproj"
             }
           }
         }

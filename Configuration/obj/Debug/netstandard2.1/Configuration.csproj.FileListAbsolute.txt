@@ -8,3 +8,13 @@
 /Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/obj/Debug/netstandard2.1/Configuration.csproj.CoreCompileInputs.cache
 /Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/obj/Debug/netstandard2.1/Configuration.dll
 /Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Configuration/obj/Debug/netstandard2.1/Configuration.pdb
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/Debug/netstandard2.1/Configuration.csproj.AssemblyReference.cache
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/Debug/netstandard2.1/Configuration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/Debug/netstandard2.1/Configuration.AssemblyInfoInputs.cache
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/Debug/netstandard2.1/Configuration.AssemblyInfo.cs
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/Debug/netstandard2.1/Configuration.csproj.CoreCompileInputs.cache
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/Debug/netstandard2.1/Configuration.dll
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/obj/Debug/netstandard2.1/Configuration.pdb
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/bin/Debug/netstandard2.1/Configuration.deps.json
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/bin/Debug/netstandard2.1/Configuration.dll
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Configuration/bin/Debug/netstandard2.1/Configuration.pdb

@@ -11,3 +11,16 @@
 /Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/obj/Debug/netstandard2.1/SDK.csproj.CopyComplete
 /Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/obj/Debug/netstandard2.1/SDK.dll
 /Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/SDK/obj/Debug/netstandard2.1/SDK.pdb
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.dll
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.pdb
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/bin/Debug/netstandard2.1/SDK.deps.json
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/bin/Debug/netstandard2.1/SDK.dll
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/bin/Debug/netstandard2.1/SDK.pdb
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/bin/Debug/netstandard2.1/Models.dll
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/bin/Debug/netstandard2.1/Models.pdb
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.csproj.AssemblyReference.cache
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.AssemblyInfoInputs.cache
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.AssemblyInfo.cs
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.csproj.CoreCompileInputs.cache
+/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/SDK/obj/Debug/netstandard2.1/SDK.csproj.CopyComplete

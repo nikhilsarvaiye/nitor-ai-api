@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eg9Gf58DsMtEnM4F+XbHnrM2w4WMGpJp+F66DT+7IGnWBXUu+1qArEiOvWINFA03GmzcDRBuUEq/x+TQTm9Tgw==",
+  "dgSpecHash": "bNgojCY3EPcrv10PlB2IEJxUU9+RfpE/toDOfKvxpjJU9TMERHOYS82duKSz7qQx+E77QhoEs1+uIFe2NNoSnA==",
   "success": true,
-  "projectFilePath": "/Users/nikhils/Documents/Projects/Github/starters/ns-dotnet-starter/Repositories/Repositories.csproj",
+  "projectFilePath": "/Users/nikhils/Documents/Projects/Github/nitor-ai/nitor-ai-api/Repositories/Repositories.csproj",
   "expectedPackageFiles": [
     "/Users/nikhils/.nuget/packages/bcrypt.net-next/4.0.2/bcrypt.net-next.4.0.2.nupkg.sha512",
     "/Users/nikhils/.nuget/packages/cachemanager.core/2.0.0-beta-1629/cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
