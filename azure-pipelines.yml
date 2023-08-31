@@ -8,7 +8,7 @@ trigger:
 
 pool:
   # vmImage: 'windows-latest'
-  name: 'Self-Hosted'
+  name: 'Azure Pipelines'
 
 variables:
   solution: '**/*.sln'
